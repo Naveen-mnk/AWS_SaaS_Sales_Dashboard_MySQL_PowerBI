@@ -1,0 +1,21 @@
+
+alter table sales_details 
+modify column Row_ID int,
+modify column Order_ID varchar(30),
+modify column  Order_Date date,
+modify column  Date_Key int,
+modify column  Contact_Name varchar(50),
+modify column  Country varchar(30),
+modify column City varchar(30),
+modify column Region varchar(30),
+modify column Subregion varchar(30),
+modify column Customer varchar(30),
+modify column Customer_ID int,
+modify column Industry varchar(30),
+modify column Segment varchar(30),
+modify column Product varchar(30),
+modify column License varchar(30),
+modify column Sales decimal(10,5),
+modify column Quantity int,
+modify column Discount decimal(10,5),
+modify column Profit decimal(10,5);

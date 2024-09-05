@@ -1,0 +1,3 @@
+SELECT COUNT(DISTINCT Order_ID) AS Total_Orders
+FROM sales_details
+WHERE Order_Date BETWEEN '2021-01-01' AND '2021-12-31';
